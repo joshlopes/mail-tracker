@@ -1,0 +1,21 @@
+{
+  "name": "mailtracker/mailtracker",
+  "license": "MIT",
+  "version": "0.1",
+  "require": {
+    "guzzlehttp/guzzle": "~6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "MailTracker\\": "src/MailTracker"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MailTracker\\Tests\\": "tests/MailTracker"
+    }
+  }
+}
